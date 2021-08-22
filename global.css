@@ -1,59 +1,72 @@
 @font-face {
-  font-family: "Abril Fatface";
-  font-weight: 400;
-  src: url("/fonts/AbrilFatface-Regular.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Metropolis";
+  font-family: "Montserrat";
   font-weight: 100;
-  src: url("/fonts/Metropolis-Thin.otf") format("opentype");
+  src: url("/fonts/Montserrat-Thin.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Metropolis";
+  font-family: "Montserrat";
   font-weight: 200;
-  src: url("/fonts/Metropolis-ExtraLight.otf") format("opentype");
+  src: url("/fonts/Montserrat-ExtraLight.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Metropolis";
+  font-family: "Montserrat";
   font-weight: 300;
-  src: url("/fonts/Metropolis-Light.otf") format("opentype");
+  src: url("/fonts/Montserrat-Light.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Metropolis";
+  font-family: "Montserrat";
   font-weight: 400;
-  src: url("/fonts/Metropolis-Regular.otf") format("opentype");
+  src: url("/fonts/Montserrat-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Metropolis";
+  font-family: "Montserrat";
   font-weight: 500;
-  src: url("/fonts/Metropolis-Medium.otf") format("opentype");
+  src: url("/fonts/Montserrat-Medium.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Metropolis";
+  font-family: "Montserrat";
   font-weight: 600;
-  src: url("/fonts/Metropolis-SemiBold.otf") format("opentype");
+  src: url("/fonts/Montserrat-SemiBold.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Metropolis";
+  font-family: "Montserrat";
   font-weight: 700;
-  src: url("/fonts/Metropolis-Bold.otf") format("opentype");
+  src: url("/fonts/Montserrat-Bold.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Metropolis";
+  font-family: "Montserrat";
   font-weight: 800;
-  src: url("/fonts/Metropolis-ExtraBold.otf") format("opentype");
+  src: url("/fonts/Montserrat-ExtraBold.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Metropolis";
+  font-family: "Montserrat";
   font-weight: 900;
-  src: url("/fonts/Metropolis-Black.otf") format("opentype");
+  src: url("/fonts/Montserrat-Black.ttf") format("truetype");
+}
+
+* {
+  font-family: "Montserrat", "sans-serif", "Open Sans", "Helvetica Neue",
+    "sans-serif";
+  color: black;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #ffffff !important;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+button:focus {
+  outline: none !important;
 }

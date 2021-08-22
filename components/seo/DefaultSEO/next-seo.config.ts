@@ -1,30 +1,30 @@
 import { DefaultSeoProps } from "next-seo"
 
 const NEXT_SEO_CONFIG = {
-  titleTemplate: "%s | UITalks",
-  defaultTitle: "UITalks | Workshop Bisnis Terbesar di Indonesia",
+  titleTemplate: "%s | Startup Weekend UI 2021",
+  defaultTitle: "Startup Weekend UI 2021 | Kompetisi Startup terbesar di Indonesia",
   description:
-    "UITalks adalah workshop bisnis terbesar yang diadakan oleh mahasiswa. Kami menghadirkan 12++ pembicara yang terampil di bidangnya",
-  canonical: "https://www.uitalks.herokuapp.com",
+    "Startup Weekend UI 2021 adalah kompetisi startup terbesar di Indonesia. Kami menyediakan speaker, mentor, dan juri yang berkompeten di bidangnya.",
+  canonical: "https://www.startupweekendui.com",
   openGraph: {
     type: "website",
-    title: "UITalks | Workshop Bisnis Terbesar di Indonesia",
+    title: "Startup Weekend UI 2021 | Kompetisi Startup terbesar di Indonesia",
     images: [
       {
         url: "/images/seo/og-image.jpg",
         width: 640,
         height: 640,
-        alt: "compfest-logo",
+        alt: "swui-logo",
       },
     ],
-    url: "https://www.uitalks.herokuapp.com",
+    url: "https://www.startupweekendui.com",
     locale: "en_US",
-    site_name: "UITalks",
+    site_name: "Startup Weekend UI 2021",
   },
   twitter: {
     cardType: "summary",
-    site: "@ui.talks",
-    handle: "@ui.talks",
+    site: "@startupweekend.ui",
+    handle: "@startupweekend.ui",
   },
 } as DefaultSeoProps
 

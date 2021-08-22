@@ -13,11 +13,13 @@
     "@emotion/react": "^11.1.4",
     "@emotion/server": "^11.0.0",
     "@emotion/styled": "^11.0.0",
+    "@headlessui/react": "^1.4.0",
     "framer-motion": "^3.2.2-rc.1",
     "next": "10.0.5",
     "next-seo": "^4.26.0",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "react-popper": "^2.2.5"
   },
   "devDependencies": {
     "@emotion/babel-plugin": "^11.1.2",
